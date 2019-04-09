@@ -1,8 +1,14 @@
 # Connect ESP32 to WPA/WPA2-Enterprise
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+[![](https://img.shields.io/github/issues/zeroby0/example.ESP32-WPA-WPA2-Enterprise.svg?color=blue)](https://github.com/zeroby0/example.ESP32-WPA-WPA2-Enterprise/issues)
+
+
 
 This uses the [Arduino core for ESP32](https://github.com/espressif/arduino-esp32).
 
-If you haven't already, I highly recommend checking out the [Platformio IDE](https://platformio.org/platformio-ide). The complete Tool chain for ESP32 and several other microcontrollers is available with it out of the box.
+If you haven't already, I highly recommend checking out [Platformio IDE](https://platformio.org/platformio-ide). The complete tool chain for ESP32 and several other microcontrollers is available with it out of the box.
+
+ESP-8266 doesn't support WPA2-Enterprise as of 9th April 2019. The following code may or may not work for you with an ESP8266.
 
 ``` C
 #include <Arduino.h> 
