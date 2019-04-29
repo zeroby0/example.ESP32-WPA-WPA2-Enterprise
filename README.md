@@ -17,8 +17,8 @@ ESP-8266 doesn't support WPA2-Enterprise as of 9th April 2019. The following cod
 #include "esp_wifi.h"
 #include "esp_wpa2.h"
 
-#define IDENTITY "org\\user.name"
-#define PASSWORD "Password"
+#define EAP_IDENTITY "org\\user.name"
+#define EAP_PASSWORD "Password"
 const char* ssid = "WIFI-NAME";
 
 void setup() {
